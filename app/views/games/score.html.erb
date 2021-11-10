@@ -1,0 +1,11 @@
+<div class="container">
+  <h1>Result</h1>
+  <div class="score-reply">
+    <p>Your attempt was: <%= @answer.join %></p>
+    <p>Letters provided: <%= @start_letters %></p>
+    <p><%= @print %></p>
+    <div class='link'>
+      <%= link_to "Try again?", "/new" %>
+    </div>
+  </div>
+</div>
